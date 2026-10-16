@@ -4,6 +4,7 @@
 - 저장소: [devmongkr/devmongkr.github.io](https://github.com/devmongkr/devmongkr.github.io)
 - 브랜드: **DEVMONG**
 - 하단 회사명: **리매뉴팩토리**
+- 사업자등록번호: **120-11-54543**
 - 문의 이메일: **dev.mong@gmail.com**
 
 4hourssoft.com의 화면 구성과 색감을 참고해 한국어로 제작한 정적 홈페이지입니다. GitHub Pages에 배포했으며, devmong.com과 www.devmong.com의 DNS 연결 및 GitHub 도메인 소유권 인증을 완료했습니다. HTTPS 인증서는 GitHub에서 발급을 진행 중입니다.
@@ -18,7 +19,7 @@
 
 로고를 바꾸려면 `assets` 폴더에 이미지를 넣고 `company.logo`를 `./assets/logo.png`처럼 지정합니다. 비워두거나 이미지가 열리지 않으면 텍스트 브랜드가 표시됩니다.
 
-`hero`, `services`, `about`, `inquiry`에서 소개 문구를 수정할 수 있습니다. 현재 서비스·소개 문구는 참고 사이트를 바탕으로 한 예시입니다. 실제 사업 내용으로 확정한 뒤 `showDraftNotice`를 `false`로 바꾸면 하단 예시 안내가 사라집니다.
+`hero`, `services`, `about`, `inquiry`에서 소개 문구를 수정할 수 있습니다.
 
 검색·공유용 정보는 `index.html`의 `<title>`과 설명 메타 태그도 함께 수정합니다. `site.config.js`의 `seo`는 브라우저에 표시되는 제목과 설명을 갱신합니다. 자바스크립트를 실행하지 않는 검색·공유 봇과 브라우저는 원본 HTML의 문구를 읽을 수 있습니다.
 
