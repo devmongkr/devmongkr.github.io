@@ -1,0 +1,32 @@
+/* Public policy document layout, adapted from the supplied source pages. */
+.brand-grad { background: linear-gradient(135deg, #833AB4, #E1306C 55%, #F77737); }
+.panel { background: #fff; border: 1px solid #e2e8f0; border-radius: 1.1rem; padding: 1.25rem; box-shadow: 0 1px 2px rgba(0,0,0,.03); }
+/* 공개 페이지(정책·/go 안내)용. 외부 CDN 없이 로컬 글꼴과 프로토타입 색을 쓴다. */
+* { box-sizing: border-box; }
+body { margin: 0; background: #f8fafc; color: #1e293b; font-family: "Pretendard", system-ui, sans-serif; line-height: 1.65; }
+.pub-head { background: #0f172a; color: #fff; padding: 1.1rem 1rem; }
+.pub-head .inner, .pub-main { max-width: 760px; margin: 0 auto; }
+.pub-brand { display: flex; align-items: center; gap: .75rem; }
+.pub-logo { width: 2.5rem; height: 2.5rem; border-radius: .8rem; display: flex; align-items: center; justify-content: center; font-weight: 900; }
+.pub-brand b { display: block; font-weight: 800; }
+.pub-brand small { color: #94a3b8; font-size: .75rem; }
+.pub-main { padding: 1.5rem 1rem 3rem; }
+.pub-main h1 { font-size: 1.35rem; font-weight: 900; margin: 0 0 .25rem; }
+.pub-main h2 { font-size: 1rem; font-weight: 800; margin: 1.4rem 0 .4rem; }
+.pub-main p, .pub-main li { font-size: .92rem; }
+.pub-note { font-size: .8rem; color: #64748b; }
+.pub-main a { color: #be185d; }
+.go-wrap { min-height: 100vh; display: flex; align-items: center; justify-content: center; padding: 24px; text-align: center; color: #fff; }
+.go-wrap main { max-width: 360px; }
+.go-wrap h1 { font-size: 1.2rem; font-weight: 800; }
+.go-wrap small { display: block; margin-top: 1.5rem; font-size: .75rem; opacity: .85; line-height: 1.5; }
+/* 정책 문서(/privacy·/data-deletion). 표는 래퍼만 가로로 밀려 390px 화면에서도 페이지가 넘치지 않는다. */
+.pub-doc { overflow-wrap: anywhere; word-break: keep-all; }
+.pub-main h3 { font-size: .92rem; font-weight: 700; margin: 1rem 0 .3rem; }
+.pub-main ol, .pub-main ul { padding-left: 1.3rem; margin: .4rem 0 .8rem; }
+.pub-main li { margin: .25rem 0; }
+.pub-table { overflow-x: auto; margin: .5rem 0 1rem; }
+.pub-table table { width: 100%; border-collapse: collapse; font-size: .82rem; }
+.pub-table th, .pub-table td { border: 1px solid #e2e8f0; padding: .45rem .6rem; text-align: left; vertical-align: top; }
+.pub-table thead th, .pub-table tbody th { background: #f1f5f9; font-weight: 700; }
+.pub-table th { overflow-wrap: normal; }  /* 제목 칸은 낱말 중간에서 끊지 않는다 */
