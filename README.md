@@ -84,3 +84,10 @@ GitHub Pages가 도메인 인증서를 준비하면 **Settings → Pages → Enf
 - [domaindiscount24 CNAME](https://support.domaindiscount24.com/hc/en-gb/articles/4409759297553-How-and-where-can-I-enter-a-CNAME-entry)
 
 작성일: 2026년 10월 16일
+
+## InstaCoupang 공개 정책 페이지
+
+- 개인정보처리방침: `pang/privacy.html`
+- 데이터 삭제 안내: `pang/data-deletion.html`
+
+지정한 원문 두 페이지의 본문을 그대로 옮긴 정적 페이지입니다. 두 문서 사이의 링크는 같은 폴더의 새 페이지로 연결합니다. 원문이 바뀌면 복사본도 별도로 갱신합니다. 공통 서식은 `pang/assets/policy.css`에서 수정합니다.
