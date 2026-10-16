@@ -12,7 +12,7 @@ window.SITE_CONFIG = {
     // 정식 회사 정보가 확인되면 입력하세요. 비워두면 화면에서 생략합니다.
     legalName: "리매뉴팩토리",
     representative: "",
-    businessNumber: ""
+    businessNumber: "120-11-54543"
   },
   contact: {
     // 실제 사용하는 이메일/전화번호만 입력하세요. 비워두면 준비 중으로 표시됩니다.
@@ -68,6 +68,6 @@ window.SITE_CONFIG = {
     description: "떠오른 아이디어가 있으신가요? 만들고 싶은 서비스와 고민을 편하게 들려주세요.",
     button: "이메일로 문의하기"
   },
-  // 실제 정보로 교체한 뒤 false로 바꾸면 '소개·서비스 문구는 예시' 안내가 사라집니다.
-  showDraftNotice: true
+  // 하단 안내 문구 표시 여부
+  showDraftNotice: false
 };
